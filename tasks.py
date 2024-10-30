@@ -13,8 +13,11 @@ import numpy
 # Your code here:
 # -----------------------------------------------
 
-def step
-
+def step(one_number):
+  if (one_number > 0):
+    return 1
+  else:
+    return -1
 
 # -----------------------------------------------
 
