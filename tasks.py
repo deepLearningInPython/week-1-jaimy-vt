@@ -56,7 +56,9 @@ def ReLu(np_array, cutoff = 0):
 # Your code here:
 # -----------------------------------------------
 
-def neural_net_layer
-
+def neural_net_layer(array_2dim, array_1dim):
+    multi_matrix = array_2dim @ array_1dim
+    
+    return(ReLu(multi_matrix))
 
 # ------------------------------------------
