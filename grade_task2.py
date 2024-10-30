@@ -1,7 +1,6 @@
 import numpy as np
 from tasks import step, ReLu
 
-
 def test_relu_default_cutoff():
     array = np.array([-5, 0, 3, -2, 4])
     expected_output = np.array([0, 0, 3, 0, 4])
