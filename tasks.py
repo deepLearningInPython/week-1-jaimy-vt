@@ -31,7 +31,15 @@ def step(one_number):
 
 # Your code here:
 # -----------------------------------------------
-def ReLu
+def ReLu(np_array, cutoff = 0):
+    new_array = [0] * len(np_array)
+    for i in range(len(np_array)):
+        if np_array[i] < cutoff:
+            new_array[i] = cutoff
+        else:
+            new_array[i] = np_array[i]
+    
+    return(new_array)
 
 
 # -----------------------------------------------
